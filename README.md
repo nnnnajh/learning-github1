@@ -24,4 +24,4 @@ $ conda create \-n sv_detection
 $ conda activate cv_detection
 $ python \-\-version
 $ python example.py
-``` sh
+``` 
