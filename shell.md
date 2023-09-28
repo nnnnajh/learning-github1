@@ -31,6 +31,16 @@
 ------------------------------------------------
 ### Manipulation: mv
 ***mv***: move files and directories or rename them   
--mv \[file1\] \[file2\]: If file2 does not ecist, then file1 is renamed file2.
--mv -i \[file1\] \[file2\]: Like above however, since the "-i" option is specified, if file2 exists, the user is prompted before it is overwritten with the contents of file1
--
+- mv \[file1\] \[file2\]: If file2 does not ecist, then file1 is renamed file2.
+- mv -i \[file1\] \[file2\]: Like above however, since the "-i" option is specified, if file2 exists, the user is prompted before it is overwritten with the contents of file1
+- mv \[file1\] \[file2\] dir1: The files file1 and file2 are moved to dir1. If dir1 does not exist, mv will exit with an error.
+- mv dir1 dir2: If dir2 does not exist, the dir1 is renamed dir2. If dir2 exists, the dir1 is moved within dir2.
+-------------------------------------------------------------------------------
+### Manipulation: rm
+***rm***: delete files and dir
+- rm \[file1\] \[file2\]: Delete file1 and file2
+- rm -i \[file1\] \[file2\]: Like above however, since the "-i" option is specified, the user is prompted before each file is deleted
+- rm -r dir1 dir2: Directories dir1 and dir2 are deleted along with all of their contents
+---------------------------------------
+### Manipulation: mkdir
+***mkdir***: make a new dir
