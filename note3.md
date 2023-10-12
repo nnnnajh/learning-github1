@@ -12,7 +12,7 @@ ver1     ver2      ver3      ver4      ver5
   |        |        |          |        |             
 File A    A1        A1         A2       A2            
   |        |        |          |        |            
-File B     B        B          B1       B2
+File B     B        B          B1       B2           
   |        |        |          |        |                 
 File C     C1      C2          C2       C2               
 -------------------------------------------------------
