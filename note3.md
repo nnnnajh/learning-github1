@@ -1,7 +1,7 @@
 ***Changes vs Snapshots***
 **changes**
 -----------------------------
-ver1      ver2      ver3      ver4      ver5                   
+ver1            ver2               ver3                 ver4                   ver5                   
 File A ->  D1  ----------->   D2      
 File B ------------------->   D1 ------> D2         
 File C ->  D1  --->  D2     
